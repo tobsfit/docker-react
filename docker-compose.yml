@@ -9,7 +9,7 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-  # dieser container kümmert sich um die Tests
+
   tests:
     build:
       context: .
